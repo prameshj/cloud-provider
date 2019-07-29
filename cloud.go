@@ -199,9 +199,9 @@ type Routes interface {
 }
 
 var (
-	InstanceNotFound = errors.New("instance not found")
-	DiskNotFound     = errors.New("disk is not found")
-	NotImplemented   = errors.New("unimplemented")
+	InstanceNotFound     = errors.New("instance not found")
+	DiskNotFound         = errors.New("disk is not found")
+	NotImplemented       = errors.New("unimplemented")
 	ImplementedElsewhere = errors.New("Implemented by a different controller")
 )
 
